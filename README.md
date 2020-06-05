@@ -32,6 +32,11 @@ An alternative is subclassing `GiveFoodDataSource`.
 import { GiveFoodDataSource } from 'apollo-datasource-givefood';
 
 class FoodBanks extends GiveFoodDataSource {
+  constructor() {
+    super();
+    this.baseURL = '...';
+  }
+
   getFoodBankBySlug(slug) {
     return this.getBySlug(slug);
   }
@@ -39,20 +44,6 @@ class FoodBanks extends GiveFoodDataSource {
 ```
 
 ## API
-
-### `GiveFoodDataSource(baseUrl)` constructor
-
-#### Params
-
-- `baseUrl` _(optional)_: Set to `https://www.givefood.org.uk/api/1/` by default.
-
-#### Example
-
-```js
-import { GiveFoodDataSource } from "apollo-datasource-givefood";
-
-const givefood = new GiveFoodDataSource({baseUrl: '...'}),
-```
 
 ### `getAll`
 

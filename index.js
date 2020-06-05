@@ -1,9 +1,9 @@
 const { RESTDataSource } = require('apollo-datasource-rest');
 
 class GiveFoodDataSource extends RESTDataSource {
-  constructor({ baseURL = 'https://www.givefood.org.uk/api/1/' }) {
+  constructor() {
     super();
-    this.baseURL = baseURL;
+    this.baseURL = 'https://www.givefood.org.uk/api/1/';
   }
 
   async getAll() {
