@@ -2,7 +2,7 @@
 
 🥫 Apollo [data source](https://www.apollographql.com/docs/apollo-server/features/data-sources) for [GiveFood API](https://www.givefood.org.uk/api).
 
-[Donate](https://www.givefood.org.uk/api/)
+[Donate to Food Banks](https://www.givefood.org.uk) | [Find Nearby Food Banks](https://www.givefood.org.uk/needs)
 
 ## Install
 
