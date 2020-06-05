@@ -26,7 +26,7 @@ const server = new ApolloServer({
 });
 ```
 
-An alternative is subclassing `GiveGoodDataSource`.
+An alternative is subclassing `GiveFoodDataSource`.
 
 ```js
 import { GiveFoodDataSource } from 'apollo-datasource-givefood';
