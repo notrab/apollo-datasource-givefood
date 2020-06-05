@@ -1,0 +1,26 @@
+{
+  "name": "apollo-datasource-givefood",
+  "version": "0.0.0-semantic-release",
+  "description": "DataSource interface for GiveFood",
+  "main": "index.js",
+  "repository": "notrab/apollo-datasource-givefood",
+  "author": "Jamie Barton <jamie@launchmade.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "apollo",
+    "datasource",
+    "data source",
+    "givefood",
+    "food banks"
+  ],
+  "dependencies": {
+    "apollo-datasource-rest": "0.9.2"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {}
+}
