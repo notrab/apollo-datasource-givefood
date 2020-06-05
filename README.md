@@ -64,7 +64,7 @@ Get a food bank by `slug`, and all their needs and outlets.
 
 #### Args
 
-- `slug`: A slug for an individual food bank
+- `slug`: A slug for an individual food bank. E.g. `cramlington`
 
 #### Example
 
@@ -83,8 +83,8 @@ Get food banks near the provided `lat`/`lng`. Returns needs, along with distance
 
 #### Args
 
-- `lat` **(required)**: Latitude
-- `lng` **(required)**: Longitude
+- `lat` **(required)**: Latitude. E.g. `53.42`
+- `lng` **(required)**: Longitude. E.g. `-2.55`
 
 #### Example
 
@@ -105,7 +105,7 @@ Use with caution, and **expect slower response times**.
 
 #### Args
 
-- `address` **(required)**: The address, e.g. `66 The Headrow Leeds LS1 8EQ
+- `address` **(required)**: The address, e.g. `66 The Headrow Leeds LS1 8EQ`
 
 #### Example
 
