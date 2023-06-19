@@ -17,7 +17,7 @@
     "food banks"
   ],
   "dependencies": {
-    "apollo-datasource-rest": "0.9.5"
+    "apollo-datasource-rest": "3.7.0"
   },
   "files": [
     "index.js"
